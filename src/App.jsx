@@ -109,7 +109,7 @@ function AppContent() {
 export default function App() {
   return(
     <>
-    <Router>
+    <Router basename="/sales-tracker/">
       <AppContent />
     </Router>
     </>
